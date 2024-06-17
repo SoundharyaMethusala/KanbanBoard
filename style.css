@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.toolbar-cont{
+    background-color: black;
+    height: 6rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.toolbar-color-cont{
+    background-color: white;
+    height:3rem;
+    width:20rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.color{
+    height:1.5rem;
+    width:3rem;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color: pink;
+}
+.action-btn-cont{
+    background-color:white;
+    height:3rem;
+    width:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+}
+.add-btn{
+    font-size:2rem;
+    cursor:pointer;
+}
+.remove-btn{
+    font-size: 1.25rem;
+    cursor:pointer;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:2rem;
+    margin: 2rem;
+}
+.ticket-cont{
+    height:12rem;
+    width:15rem;
+    background-color: chartreuse;
+    margin:2rem;
+}
+.ticket-color{
+    height:1rem;
+  width:100%;
+}
+.ticket-id{
+    height:1.5rem;
+    font-weight: 600;
+    font-size:0.75rem;
+    
+}
+.task-area{
+    font-size: 1rem;
+    padding: 5px;
+    height:6rem;
+}
+.ticket-lock{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right:0.5rem;
+}
+.modal-container{
+    height:50vh;
+    width:50vw;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border:2px solid grey;
+    display: none;
+}
+    
+.task-content{
+    background-color: white;
+    font-size:2rem;
+    padding:2rem;
+    resize:none;
+    border:none;
+    outline:none;
+    width:80%;
+}
+.color-palette{
+    height:100%;
+    background-color: grey;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.active{
+    border:3px solid yellow;
+}
+.palette-color{
+    height:2rem;
+    width:5rem;
+    cursor:pointer;
+}
