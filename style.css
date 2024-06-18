@@ -60,9 +60,9 @@
     margin: 2rem;
 }
 .ticket-cont{
-    height:12rem;
+    height:10rem;
     width:15rem;
-    background-color: chartreuse;
+    background-color: beige;
     margin:2rem;
 }
 .ticket-color{
@@ -123,4 +123,10 @@
     height:2rem;
     width:5rem;
     cursor:pointer;
+}
+.ticket-unlock{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right:0.5rem;
 }
