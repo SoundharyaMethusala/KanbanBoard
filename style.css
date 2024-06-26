@@ -1,17 +1,27 @@
+:root{
+    --red:#BF0436;
+    --blue:#164773;
+    --green:#023535;
+    --pink:#FF81D0;
+    --backgroundColor:#011F26;
+    --toolboxbackground:#FFFFFF;
+}
+
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 .toolbar-cont{
-    background-color: black;
+    background-color: var(--backgroundColor);
     height: 6rem;
     width:100%;
     display: flex;
     align-items: center;
 }
 .toolbar-color-cont{
-    background-color: white;
+    background-color: var(--toolboxbackground);
     height:3rem;
     width:20rem;
     margin-left: 5rem;
@@ -22,21 +32,22 @@
 .color{
     height:1.5rem;
     width:3rem;
+    cursor:pointer;    
 }
 .red{
-    background-color: red;
+    background-color: var(--red);
 }
 .blue{
-    background-color: blue;
+    background-color: var(--blue);
 }
 .green{
-    background-color: green;
+    background-color: var(--green);
 }
 .pink{
-    background-color: pink;
+    background-color: var(--pink);
 }
 .action-btn-cont{
-    background-color:white;
+    background-color:var(--toolboxbackground);
     height:3rem;
     width:10rem;
     display: flex;
@@ -62,7 +73,7 @@
 .ticket-cont{
     height:10rem;
     width:15rem;
-    background-color: beige;
+    background-color: #F0F1DF;
     margin:2rem;
 }
 .ticket-color{
@@ -93,12 +104,12 @@
     left:50%;
     top:50%;
     transform:translate(-50%,-50%);
-    border:2px solid grey;
+    border:1px solid black;
     display: none;
 }
     
 .task-content{
-    background-color: white;
+    background-color: var(--toolboxbackground);
     font-size:2rem;
     padding:2rem;
     resize:none;
@@ -108,7 +119,7 @@
 }
 .color-palette{
     height:100%;
-    background-color: grey;
+    background-color: #F0F1DF;
     width:20%;
     display: flex;
     flex-direction: column;
